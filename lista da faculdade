@@ -1,0 +1,289 @@
+Exercícios dos sites:
+https://wiki.python.org.br/EstruturaDeDecisao
+https://wiki.python.org.br/EstruturaDeRepeticao
+https://wiki.python.org.br/EstruturaSequencial
+
+
+Questão número 1:
+
+print("olá mundo")
+
+Questão número 2:
+
+numero = input("Digite um número: ")
+print("O número digitado foi ", numero)
+
+Questão número 3:
+
+x = (float(input("Coloque um número ai pra somar = ")))
+y = (float(input("Coloque mais um número ai pra somar = ")))
+resultado = x + y
+print("Foi feita uma soma = " , resultado)
+
+Questão número 4:
+
+n1 = float(input("Nota 1: "))
+n2 = float(input("Nota 2: "))
+n3 = float(input("Nota 3: "))
+n4 = float(input("Nota 4: "))
+
+media = (n1 + n2 + n3 + n4) / 4
+
+print("A média final do aluno será : ", media)
+
+Questão número 5:
+
+x = (float(input("Coloque um numero em metros para ser convertido em centimetros = ")))
+cm = x / 100
+print("Resultado em centimetros = ", cm , "cm")
+
+Questão número 6:
+
+raio = float(input("Digite o raio do circulo: "))
+area = 3.14 * raio
+
+print("A área do circlo é de: ", area)
+
+Questão número 7:
+
+l = (float(input("Digite o lado do quadrado = ")))
+a = l*l
+print("area quadrado = ",a)
+print("area quadrado (dobro) = ",a*2)
+
+Questão número 8:
+
+x = (float(input("Valor ganho, horas trabalhadas = ")))
+y = (float(input("Horas que trabalha no mes = ")))
+re = x*y
+print("total do seu salário no referido mês = " , re)
+
+Questão número 9:
+
+f = (float(input("Coloque grau Fahrenheit  = ")))
+r = 5*((f-32)/9)
+print("Graus convertidos em c° = ", r, "c°")
+10)
+celsius = float(input("Quantidade de graus Celsius: "))
+fahrenheit = (celsius * 1.8) + 32
+
+print(celsius, " graus Celsius são iguais a ", fahrenheit, " graus Fahrenheit")
+
+Questão número 11:
+
+inteiro1 = int(input("Digite um número inteiro: "))
+inteiro2 = int(input("Digite outro número inteiro: "))
+real = float(input("Digite um número real"))
+
+a = (inteiro1 * 2) + (inteiro2 / 2)
+b = (inteiro1 * 3) + real
+c = real ** 3
+
+print("a : ", a, "\nb : ", b, "\nc : ", c)
+
+Questão número 12:
+
+print("12) ")
+a = (float(input("Coloca um tua altura ai = ")))
+peso = (72.7*a) - 58
+print(" teu peso ideal é = " , peso)
+
+Questão número 13:
+
+gênero = (str(input("Coloque seu gênero /homem(h) e mulher(m) = ")))
+a = (float(input("Coloque sua altura= ")))
+if  ('h' in sexo) :
+    print("Senhor seu peso ideal = " , (72.7 * a) - 58)
+if  ('m' in sexo) :
+    print("Senhora seu peso ideal = " , (62.1 * a) - 44.7)
+
+Questão número 14:
+
+print("O valor do meu peixe é 20 conto por kg")
+kgpexe = (float(input("kg do peixe = ")))
+precopexe = kgpexe * 20
+exced = kgpexe - 50
+if(kgpexe > 50):
+    precopexe += kgpexe*4
+    multa = precopexe - (exced*4)
+else:
+    multa = 0
+    precopexe = 20*kgpexe
+print("valor a se pago do peixe = ", precopexe)
+print("multa = " , multa)
+print("excesso do pexe = " , exced)
+
+Questão número 15:
+
+quant_hora = float(input("Quanto você ganha por hora? R: "))
+horas_mes = int(input("Quantas horas você trabalha no mês? R: "))
+salario = quant_hora * horas_mes
+
+ir = salario * 0.11
+inss = salario * 0.08
+sindicato = salario * 0.05
+salario_liquido = salario - ir - inss - sindicato
+
+print("Salário bruto: ", salario, "\nIR: ", ir, "\nINSS: ", inss, "\nSindicato ", sindicato, "\nSalário Liquido: ", salario_liquido)
+
+Questão número 16:
+
+x = float(input("quantidade em metros pra pintar ? "))
+quant = x/3
+preco = quant*(80/18)
+latas = x/54
+print ("preco a ser pago : ",preco, " R$")
+print("quantidades de latas pra ser usadas : ",latas)
+
+Questão número 17:
+
+x = float(input("quantidade em metros pra ? "))
+quant= x/6
+p1 = quant*(80/18)
+p2 = quant*(25/3.6)
+latas1 = x/54
+latas2 = x/10.8
+x = input(print("qual vai usar ? escolhe entre (A), (B) ou (C) "
+                "\n A)Latas grandes "
+                "\n B)Latas Pequenas "
+                "\n C)Todas"))
+if (x == 'A'):
+    print("quantidades de latas pra usar : ",latas1)
+    print ("preco que vai pagar : ",p1, " R$")
+elif (x == 'B'):
+    print("quantidades de latas pra usar : ",latas2)
+    print ("preco que vai pagar : ",p2, " R$")
+else:
+18)
+x = input("tamanho do aqruivo (em MB) ")
+y = input("velocidade do link (em Mbps) ")
+re = (x/(y/8))
+print ("tempo aproximado = ",re/60)
+
+
+
+Questão número 5:
+
+nota1 = float(input('Digite a primeira nota: '))
+nota2 = float(input('Digite a segunda nota: '))
+media = (nota1 + nota2)/2
+if (media == 10):
+    print('Aprovado com Distinção.')
+elif ((media >= 7) and (media < 10)):
+    print("Parabéns você foi aprovado")
+else:
+    print("Você foi reprovado")
+
+
+Questão número 7:
+
+numero1 = int(input("Primeiro número :"))
+numero2 = int(input("Segundo número :"))
+numero3 = int(input("Terceiro número :"))
+
+
+def Comparar():
+    if ((numero1 > numero2) and (numero1 > numero3)):
+        print(numero1, " Maior número")
+    else:
+        print(numero3, " Maior número")
+    if ((numero2 > numero1) and (numero2 > numero3)):
+        print(numero2, " Maior número")
+
+Questão número 12:
+
+print("")
+print("Folha de Pagamento \n")
+salhr   =     	float(input("salário por hora no mês  : "))
+hr      =     	float(input("horas trabalhadas no mês : "))
+Sal = (salhr * hr)
+INSS =(Sal*10)/100
+IR = (Sal*5)/100
+Des = IR + INSS
+Salliq = Sal - Des
+FGTS = (11*Sal)/100
+if (Sal <= 900):
+    print("Isento")
+    Des = 0
+    print(Salliq)
+elif((Sal>900)and(Sal<=1500)):
+    print("Desconto de 5%")
+    print((Sal*5)/100)
+    print(Salliq -(Sal*5)/100)
+elif((Sal>1500)and(Sal<=2500)):
+    print("Desconto de 10%")
+    print((Sal*10)/100)
+    print(Salliq-(Sal*10)/100)
+else:
+    print("Desconto de 20%")
+    print("Salário Bruto:      : ",Sal)
+    print("(-) IR (5%)         : ",IR)
+    print("(-) INSS ( 10%)     : ",INSS)
+    print("FGTS (11%)          : ",FGTS)
+    print("Total de descontos  : ",Des)
+    print("Salário Liquido     : ",Salliq)
+    print((Sal*20)/100)
+
+Questão número 9:
+
+print("")
+inicio = int(input("Inicio dos numeros imp : "))
+fim = int(input("fim dos numeros imp : "))
+for num in range(inicio, fim + 1):
+    if num % 2 != 0:
+        print(num)
+
+Questão número 12:
+
+print("")
+numero = int(input ("Digite o número do qual o usuário deseja imprimir a tabuada: "))
+print ("Tabela de : ", numero)
+for count in range(1, 11):
+   print (numero, 'x', count, '=', numero * count)
+
+
+Questão número 44:
+
+print("")
+votacao = T = P = J = A = F = N = B = 0
+print('\n---Eleições 2022---\n')
+print("\t \t \t Candidatos ! \n [1]Paulo \t [2]Jorge \t [3]Ana \t [4]Fernanda \t [5]Nulo \t [6]Voto em Branco \n")
+votacao = int(input("Deseja realizar a votação ? [1] sim \t [0] não \n"))
+while votacao != 0:
+    voto = int(input(" Digite o número do seu candidato: \n "))
+    match voto:
+        case [1]:
+            print("O Número de Votos em Paulo é igual a : ", P)
+            P += P
+        case [2]:
+            print("O Número de Votos em Jorge é igual a : ", J)
+            J += J
+        case [3]:
+            print("O Número de Votos em Ana é igual a : ", A)
+            A += A
+        case [4]:
+            print("O Número de Votos em Fernanda é igual a : ", F)
+            F += F
+        case [5]:
+            print("O Número de Votos em Nulo é igual a : ", N)
+            N += N
+        case [6]:
+            print("O Número de Votos em Voto em Branco é igual a : ", B)
+            B += B
+T = T + 1
+votacao = int(input("Deseja continuar votando ? \t [1] sim \t [0] não \n"))
+PN = N / T
+PB = B / T
+print("Fim de Votação \n")
+print("Resultado da Votação \n")
+print("Total de Votos = ", T)
+print("Votos em Paulo = ", P)
+print("Votos em Jorge= ", J)
+print("Votos em Ana = ", A)
+print("Votos em Fernanda = ", F)
+print("----------------------")
+print("Votos Nulo = ", N)
+print("Votos em Branco = ", B)
+print("porcentagem votos nulos/total = ", PN, "%")
+print("porcentagem votos brancos/total = ", PB, "%")
+
